@@ -15,6 +15,18 @@ export default class Navbar extends Component {
           </ul>*/}
           <ul className="navbar-nav mx-auto text-right">
             <li className="navbar-item">
+              <Link to="/trendquery1" className="nav-link">TrendQuery1</Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/trendquery2" className="nav-link">TrendQuery2</Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/trendquery3" className="nav-link">TrendQuery3</Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/trendquery4" className="nav-link">TrendQuery4</Link>
+            </li>
+            <li className="navbar-item">
               <Link to="/teams" className="nav-link">Teams</Link>
             </li>
             <li className="navbar-item">
