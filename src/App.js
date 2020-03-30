@@ -21,7 +21,6 @@ function App() {
       <Navbar /><br />
 
       <Switch>
-        <div className="container">
           <Route exact path ="/" component={Home} />
           <Route exact path ="/trendquery1" component={TrendQuery1} />
           <Route exact path ="/trendquery2" component={TrendQuery2} />
@@ -31,7 +30,6 @@ function App() {
           <Route exact path ="/testquery1" component={TestQuery1} />
           
           <Route exact path ="/react" component={ReactLogo} />
-        </div>
       </Switch>
 
     </Router>

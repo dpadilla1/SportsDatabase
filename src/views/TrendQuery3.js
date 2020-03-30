@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import '../stylesheets/TestQuery1.css';
 import CanvasJSReact from '../CanvasJS/canvasjs.react';
-var CanvasJS = CanvasJSReact.CanvasJS;
+//var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class TrendQuery3 extends React.Component {
