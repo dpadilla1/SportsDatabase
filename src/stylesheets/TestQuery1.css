@@ -1,3 +1,7 @@
 .testContainer {
     background-color: bisque;
 }
+
+.selectYear {
+    max-width: 140px;
+}
