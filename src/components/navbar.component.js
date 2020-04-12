@@ -5,15 +5,11 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-dark bg-dark navbar-expand">
+      <nav className="navbar navbar-dark navbar-expand py-0"
+          style={{"backgroundColor": "#1F618D"}}>
         {/*<Link to="/" className="navbar-brand">NavBar Test</Link>*/}
         <div className="collpase navbar-collapse">
-          {/*<ul className="navbar-nav mr-auto text-right">
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">Home</Link>
-            </li>
-          </ul>*/}
-          <ul className="navbar-nav mx-auto text-right">
+          <ul className="navbar-nav ml-auto text-right">
             <li className="navbar-item">
               <Link to="/trendquery1" className="nav-link">TrendQuery1</Link>
             </li>
@@ -24,7 +20,7 @@ export default class Navbar extends Component {
               <Link to="/trendquery3" className="nav-link">TrendQuery3</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery4" className="nav-link">TrendQuery4</Link>
+              <Link to="/trendquery18" className="nav-link">TrendQuery18</Link>
             </li>
             <li className="navbar-item">
               <Link to="/teams" className="nav-link">Teams</Link>
@@ -40,9 +36,6 @@ export default class Navbar extends Component {
             </li>
             <li className="navbar-item">
               <Link to="/" className="nav-link">NBA</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/testquery1" className="nav-link">Test-Query-1</Link>
             </li>
           </ul>
         </div>
