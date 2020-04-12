@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import '../stylesheets/TestQuery1.css';
+import Navbar from "../components/navbar.component";
 import CanvasJSReact from '../CanvasJS/canvasjs.react';
 //var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
@@ -219,10 +220,12 @@ class TrendQuery1 extends React.Component {
 
         return (
 
+            <div>
+            <Navbar /><br />
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-2">
-                        <h6>Select Season Year</h6>
+                        <h6>Season Year</h6>
                         <select className="form-control selectYear" ref="yearSelect"
                                     onChange={this.setYear.bind(this)} >
                                 <option key={2015} value={2015}>{2015}</option>
@@ -233,7 +236,7 @@ class TrendQuery1 extends React.Component {
                         </select>
                     </div>
                     <div className="col-2">
-                        <h6>Select Play Type</h6>
+                        <h6>Play Type</h6>
                         <select className="form-control selectYear" ref="typeSelect"
                                     onChange={this.setType.bind(this)} >
                                 <option key={'r'} value={'RUSH'}>Rush</option>
@@ -242,8 +245,8 @@ class TrendQuery1 extends React.Component {
                     </div>
                 </div><br/>
                 <div className="row justify-content-center">
-                    <div className="col-sm">
-                        <h6>Select Team 1</h6>
+                    <div className="col-2">
+                        <h6>Team 1</h6>
                         <select className="form-control selectYear" ref="team1"
                                     onChange={this.setTeam1.bind(this)} 
                                     defaultValue={'ARI'}>
@@ -251,8 +254,8 @@ class TrendQuery1 extends React.Component {
                                     <option key={m} value={m}>{m}</option>)}
                         </select>
                     </div>
-                    <div className="col-sm">
-                        <h6>Select Team 2</h6>
+                    <div className="col-2">
+                        <h6>Team 2</h6>
                         <select className="form-control selectYear" ref="team2"
                                     onChange={this.setTeam2.bind(this)} 
                                     defaultValue={'ATL'}>
@@ -260,8 +263,8 @@ class TrendQuery1 extends React.Component {
                                     <option key={m} value={m}>{m}</option>)}
                         </select>
                     </div>
-                    <div className="col-sm">
-                        <h6>Select Team 3</h6>
+                    <div className="col-2">
+                        <h6>Team 3</h6>
                         <select className="form-control selectYear" ref="team3"
                                     onChange={this.setTeam3.bind(this)} 
                                     defaultValue={'BAL'}>
@@ -269,8 +272,8 @@ class TrendQuery1 extends React.Component {
                                     <option key={m} value={m}>{m}</option>)}
                         </select>
                     </div>
-                    <div className="col-sm">
-                        <h6>Select Team 4</h6>
+                    <div className="col-2">
+                        <h6>Team 4</h6>
                         <select className="form-control selectYear" ref="team4"
                                     onChange={this.setTeam4.bind(this)} 
                                     defaultValue={'BUF'}>
@@ -278,8 +281,8 @@ class TrendQuery1 extends React.Component {
                                     <option key={m} value={m}>{m}</option>)}
                         </select>
                     </div>
-                    <div className="col-sm">
-                        <h6>Select Team 5</h6>
+                    <div className="col-2">
+                        <h6>Team 5</h6>
                         <select className="form-control selectYear" ref="team5"
                                     onChange={this.setTeam5.bind(this)} 
                                     defaultValue={'CAR'}>
@@ -323,6 +326,7 @@ class TrendQuery1 extends React.Component {
                         </tbody>
                     </table>
                 </div>
+            </div>
             </div>
         )
     };

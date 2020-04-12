@@ -10,7 +10,17 @@ class Home extends React.Component {
 
     render() {
         return (
-            <p>Welcome!</p>
+            <div className="container">
+                <div className="row">
+                    <div className="col text-center">
+                        <br /><br/>
+                        <h2>Welcome!</h2><br/>
+                        <p>Created by Group 10</p>
+                        <p>Derek Padilla<br/>
+                            Aristotle Tesser</p>
+                    </div>
+                </div>
+            </div>
         )
     };
 }

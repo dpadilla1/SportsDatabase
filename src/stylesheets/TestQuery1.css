@@ -3,5 +3,26 @@
 }
 
 .selectYear {
-    max-width: 140px;
+    max-width: 100px;
 }
+.playerType {
+    max-width: 200px;
+}
+
+
+
+
+/*These are for the navbar with 3 sections*/
+.left-section {
+    padding-right: 0px;
+}
+
+.mid-section {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.right-section {
+    padding-left: 0px;
+}
+
