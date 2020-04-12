@@ -223,6 +223,7 @@ class TrendQuery1 extends React.Component {
             <div>
             <Navbar /><br />
             <div className="container">
+            <h5 className="text-center">Trend Query 1</h5><br/>
                 <div className="row justify-content-center">
                     <div className="col-2">
                         <h6>Season Year</h6>

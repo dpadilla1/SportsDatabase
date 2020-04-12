@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import '../stylesheets/TestQuery1.css';
+import Navbar from "../components/navbar.component";
 import CanvasJSReact from '../CanvasJS/canvasjs.react';
 //var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
@@ -130,13 +131,16 @@ class TrendQuery3 extends React.Component {
 
         return (
 
+            <div>
+            <Navbar /><br />
             <div className="container">
+            <h5 className="text-center">Trend Query 3</h5><br/>
                 <div>
                     <CanvasJSChart options = {options} 
 				        onRef={ref => this.chart = ref}
 			        />
 			        {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
-		        </div><br /><br/>
+		        </div><br /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
                 <div className="timesheet-table">
@@ -156,6 +160,7 @@ class TrendQuery3 extends React.Component {
                         </tbody>
                     </table>
                 </div>
+            </div>
             </div>
         )
     };
