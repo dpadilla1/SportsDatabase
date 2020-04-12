@@ -126,7 +126,10 @@ class FantasyQuery2 extends React.Component {
         const options = {
             animationEnabled: true,	
             title:{
-                text: "Fantasy Points by League"
+                text: "Rank-Value Analysis Across Sports Leagues"
+            },
+            axisX: {
+                interval: 1
             },
             axisY : [{
                 title: " ",
