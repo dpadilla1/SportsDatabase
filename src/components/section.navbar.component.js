@@ -7,7 +7,7 @@ export default class SectionNavbar extends Component {
     return (
         <div className = "row">
             <div className = "col left-section">
-                <nav className="navbar navbar-dark navbar-expand py-1" 
+                <nav className="navbar navbar-dark navbar-expand py-0" 
                     style={{"backgroundColor": "#AF601A"}}>
                     {/*<Link to="/" className="navbar-brand">NavBar Test</Link>*/}
                     <div className="collpase navbar-collapse">
@@ -21,7 +21,7 @@ export default class SectionNavbar extends Component {
             </div>
 
             <div className = "col-1 mid-section">
-            <nav className="navbar navbar-dark bg-dark navbar-expand py-1">
+            <nav className="navbar navbar-dark bg-dark navbar-expand py-0">
                     {/*<Link to="/" className="navbar-brand">NavBar Test</Link>*/}
                     <div className="collpase navbar-collapse">
                         <ul className="navbar-nav mx-auto text-right">
@@ -34,7 +34,7 @@ export default class SectionNavbar extends Component {
             </div>
 
             <div className = "col right-section">
-            <nav className="navbar navbar-dark navbar-expand py-1"
+            <nav className="navbar navbar-dark navbar-expand py-0"
                     style={{"backgroundColor": "#1F618D"}}>
                     {/*<Link to="/" className="navbar-brand">NavBar Test</Link>*/}
                     <div className="collpase navbar-collapse">

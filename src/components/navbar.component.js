@@ -9,33 +9,21 @@ export default class Navbar extends Component {
           style={{"backgroundColor": "#1F618D"}}>
         {/*<Link to="/" className="navbar-brand">NavBar Test</Link>*/}
         <div className="collpase navbar-collapse">
-          <ul className="navbar-nav ml-auto text-right">
+          <ul className="navbar-nav mx-auto text-right">
             <li className="navbar-item">
               <Link to="/trendquery1" className="nav-link">TrendQuery1</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery2" className="nav-link">TrendQuery2</Link>
+              <Link to="/trendquery2" className="nav-link">TrendQuery2(S)</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery3" className="nav-link">TrendQuery3</Link>
+              <Link to="/trendquery3" className="nav-link">TrendQuery3(S)</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery18" className="nav-link">TrendQuery18</Link>
+              <Link to="/trendquery4" className="nav-link">TrendQuery4</Link>
             </li>
             <li className="navbar-item">
               <Link to="/teams" className="nav-link">Teams</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">NFL</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">MLB</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">NHL</Link>
-            </li>
-            <li className="navbar-item">
-              <Link to="/" className="nav-link">NBA</Link>
             </li>
           </ul>
         </div>

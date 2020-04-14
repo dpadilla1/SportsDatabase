@@ -223,7 +223,9 @@ class TrendQuery1 extends React.Component {
             <div>
             <Navbar /><br />
             <div className="container">
-            <h5 className="text-center">Trend Query 1</h5><br/>
+            <h5 className="text-center">Trend Query 1</h5>
+            <p className="text-center">This page displays the average rushing or receiving yards 
+                                        of up to 5 different NFL teams by month during a selected year.</p>
                 <div className="row justify-content-center">
                     <div className="col-2">
                         <h6>Season Year</h6>
@@ -305,7 +307,7 @@ class TrendQuery1 extends React.Component {
 				        onRef={ref => this.chart = ref}
 			        />
 			        {/*You can get reference to the chart instance as shown above using onRef. This allows you to access all chart properties and methods*/}
-		        </div><br /><br/>
+		        </div><br /><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
                 <div className="timesheet-table">

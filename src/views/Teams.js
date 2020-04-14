@@ -52,10 +52,9 @@ class Teams extends React.Component {
         return (
 
             <div className="container">
+                <br/><br/>
                 <h4 className="text-center">Teams</h4>
                 <div className="timesheet-table">
-                    <h5 className="text-center">Displaying results
-                        for 'SELECT * FROM team'</h5>
                     <table class="table table-bordered">
                         <thead className="thead-dark">
                             <tr>

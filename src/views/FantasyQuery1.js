@@ -141,7 +141,12 @@ class FantasyQuery1 extends React.Component {
             <div>
             <FantasyNavbar /><br />
             <div className="container">
-                <h5 className="text-center">Fantasy Query 1</h5><br/>
+                <h5 className="text-center">Fantasy Query 1</h5>
+                <p className="text-center">This page displays the total fantasy points of the 
+                                            top fantasy players in the NFL by a selected year,
+                                            player type, scoring type. This can provide valuable
+                                            information on the rate at which value diminishes by 
+                                            player position and scoring type.</p>
                 <div className="row justify-content-center">
                     <div className="col-2">
                         <h6>Season Year</h6>
@@ -181,7 +186,6 @@ class FantasyQuery1 extends React.Component {
                     </div>
                 </div><br/>
 
-                <br/>
                 <div className="row">
                     <div className="col text-center">
                     <button type="button" onClick={this.execute}
