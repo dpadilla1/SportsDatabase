@@ -153,7 +153,7 @@ class TrendQuery2 extends React.Component {
                     <h5>HAVING playType='RUSH' OR playType='PASS'</h5>
                     <h5>ORDER BY playType ASC, seasonyear'</h5>
                     
-                    <table class="table table-bordered">
+                    <table className="table table-bordered">
                         <thead className="thead-dark">
                             <tr>
                                 <th>-</th>

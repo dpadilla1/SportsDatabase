@@ -146,7 +146,7 @@ class TrendQuery3 extends React.Component {
                 <div className="timesheet-table">
                     <h5 className="text-center">Displaying results for Trend Query 3</h5>
                     
-                    <table class="table table-bordered">
+                    <table className="table table-bordered">
                         <thead className="thead-dark">
                             <tr>
                                 <th>-</th>

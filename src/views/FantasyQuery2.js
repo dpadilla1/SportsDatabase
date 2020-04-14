@@ -219,7 +219,13 @@ class FantasyQuery2 extends React.Component {
             <div>
             <FantasyNavbar /><br />
             <div className="container">
-            <h5 className="text-center">Fantasy Query 2</h5><br/>
+            <h5 className="text-center">Fantasy Query 2</h5>
+            <p className="text-center">This page displays the 5-number summary of the fantasy points
+                                        of a selected number of top players of sports leagues by year.
+                                        The graphic allows for the comparison of how value falls off 
+                                        as rank decreases. This provides information that can be helpful
+                                        in determining optimal draft strategies based on the type of
+                                        fantasy league that is being played. </p>
                 <div className="row justify-content-center">
                     <div className="col-2">
                         <h6>Season Year</h6>
@@ -240,7 +246,7 @@ class FantasyQuery2 extends React.Component {
                         </select>
                     </div>
                 </div><br/>
-                <br/>
+                
                 <div className="row">
                     <div className="col text-center">
                     <button type="button" onClick={this.execute}

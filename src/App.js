@@ -9,6 +9,7 @@ import SectionNavbar from "./components/section.navbar.component";
 import Home from "./views/Home";
 import FantasyQuery1 from "./views/FantasyQuery1";
 import FantasyQuery2 from "./views/FantasyQuery2";
+import FantasyQuery3 from "./views/FantasyQuery3";
 import TrendQuery1 from "./views/TrendQuery1";
 import TrendQuery2 from "./views/TrendQuery2";
 import TrendQuery3 from "./views/TrendQuery3";
@@ -25,6 +26,7 @@ function App() {
           <Route exact path ="/" component={Home} />
           <Route exact path ="/fantasyquery1" component={FantasyQuery1} />
           <Route exact path ="/fantasyquery2" component={FantasyQuery2} />
+          <Route exact path ="/fantasyquery3" component={FantasyQuery3} />
           <Route exact path ="/trendquery1" component={TrendQuery1} />
           <Route exact path ="/trendquery2" component={TrendQuery2} />
           <Route exact path ="/trendquery3" component={TrendQuery3} />
