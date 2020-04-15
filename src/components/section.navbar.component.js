@@ -13,7 +13,7 @@ export default class SectionNavbar extends Component {
                     <div className="collpase navbar-collapse">
                         <ul className="navbar-nav mx-auto text-right">
                             <li className="navbar-item active">
-                                <Link to="/fantasyquery1" className="nav-link">Fantasy</Link>
+                                <Link to="/fantasyquerylist" className="nav-link">Fantasy</Link>
                             </li>
                         </ul>
                     </div>
@@ -40,7 +40,7 @@ export default class SectionNavbar extends Component {
                     <div className="collpase navbar-collapse">
                         <ul className="navbar-nav mx-auto text-right">
                             <li className="navbar-item active">
-                                <Link to="/trendquery1" className="nav-link">General</Link>
+                                <Link to="/generalquerylist" className="nav-link">General</Link>
                             </li>
                         </ul>
                     </div>
