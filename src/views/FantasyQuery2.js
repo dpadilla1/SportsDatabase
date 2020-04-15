@@ -263,7 +263,7 @@ class FantasyQuery2 extends React.Component {
 
                 {/*<h4 className="text-center">Teams</h4>*/}
                 <div className="timesheet-table">
-                    <h5 className="text-center">Displaying results for TrendQuery1:</h5>
+                    <h5 className="text-center">Displaying results for FantasyQuery2:</h5>
                     
                     <table className="table table-bordered">
                         <thead className="thead-dark">
