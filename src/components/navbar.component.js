@@ -23,7 +23,7 @@ export default class Navbar extends Component {
               <Link to="/trendquery4" className="nav-link">TrendQuery4</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/teams" className="nav-link">Teams</Link>
+              <Link to="/trendquery5" className="nav-link">TrendQuery5</Link>
             </li>
           </ul>
         </div>
