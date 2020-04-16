@@ -59,6 +59,14 @@ class GeneralQueryList extends React.Component {
                                         excitement rating, and how entertaining sports can be 
                                         in different cities.</td>
                                     </tr>
+                                    <tr>
+                                        <td><Link to="/trendquery5" className="nav-link">TrendQuery5</Link></td>
+                                        <td>This page displays the average counts of a 
+                                        selected event throughtout the time of a game.
+                                        With the NHL,NFL, and NBA, this would mean by 
+                                        every minute. For the MLB, this would mean every 
+                                        out, denoted by the inning and its subsections.</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

@@ -16,6 +16,7 @@ import TrendQuery1 from "./views/TrendQuery1";
 import TrendQuery2 from "./views/TrendQuery2";
 import TrendQuery3 from "./views/TrendQuery3";
 import TrendQuery4 from "./views/TrendQuery4";
+import TrendQuery5 from "./views/TrendQuery5";
 
 import Teams from "./views/Teams";
 
@@ -36,6 +37,7 @@ function App() {
           <Route exact path ="/trendquery2" component={TrendQuery2} />
           <Route exact path ="/trendquery3" component={TrendQuery3} />
           <Route exact path ="/trendquery4" component={TrendQuery4} />
+          <Route exact path ="/trendquery5" component={TrendQuery5} />
 
           <Route exact path ="/teams" component={Teams} />
           
