@@ -262,7 +262,7 @@ class FantasyQuery2 extends React.Component {
 		        </div><br /><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
-                <div className="timesheet-table">
+                {/*<div className="timesheet-table">
                     <h5 className="text-center">Displaying results for FantasyQuery2:</h5>
                     
                     <table className="table table-bordered">
@@ -282,7 +282,7 @@ class FantasyQuery2 extends React.Component {
                             {results}
                         </tbody>
                     </table>
-                </div>
+                </div>*/}
             </div>
             </div>
         )

@@ -133,7 +133,7 @@ class TrendQuery2 extends React.Component {
             <div>
             <Navbar /><br />
             <div className="container">
-            <h5 className="text-center">Trend Query 2</h5><br/>
+            <h5 className="text-center">Static Query 1</h5><br/>
                 <div>
                     <CanvasJSChart options = {options} 
 				        onRef={ref => this.chart = ref}
@@ -142,10 +142,10 @@ class TrendQuery2 extends React.Component {
 		        </div><br /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
-                <div className="timesheet-table">
-                    <h5 className="text-center">Displaying results for Trend Query 2:</h5>
+                {/*<div className="timesheet-table">
+                    <h5 className="text-center">Displaying results for Trend Query 2:</h5>*/}
                     {/*<div style={{"display": "inline-block", "text-align": "center"}}>*/}
-                    <h5>'SELECT seasonYear, playType, SUM(Yards) as totalYards</h5>
+                    {/*<h5>'SELECT seasonYear, playType, SUM(Yards) as totalYards</h5>
                     <h5>FROM NFL_PLAYBYPLAY npbp, gamestats, game</h5>
                     <h5>WHERE npbp.gamestatsid = gamestats.gamestatsid</h5>
                     <h5>&emsp;AND gamestats.gameid = game.gameid</h5>
@@ -166,7 +166,7 @@ class TrendQuery2 extends React.Component {
                             {results}
                         </tbody>
                     </table>
-                </div>
+                </div>*/}
             </div>
             </div>
         )

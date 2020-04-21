@@ -134,7 +134,7 @@ class TrendQuery3 extends React.Component {
             <div>
             <Navbar /><br />
             <div className="container">
-            <h5 className="text-center">Trend Query 3</h5><br/>
+            <h5 className="text-center">Static Query 2</h5><br/>
                 <div>
                     <CanvasJSChart options = {options} 
 				        onRef={ref => this.chart = ref}
@@ -143,7 +143,7 @@ class TrendQuery3 extends React.Component {
 		        </div><br /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
-                <div className="timesheet-table">
+                {/*<div className="timesheet-table">
                     <h5 className="text-center">Displaying results for Trend Query 3</h5>
                     
                     <table className="table table-bordered">
@@ -159,7 +159,7 @@ class TrendQuery3 extends React.Component {
                             {results}
                         </tbody>
                     </table>
-                </div>
+                </div>*/}
             </div>
             </div>
         )

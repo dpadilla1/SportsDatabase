@@ -28,7 +28,7 @@ class GeneralQueryList extends React.Component {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><Link to="/trendquery1" className="nav-link">TrendQuery1</Link></td>
+                                        <td><Link to="/trendquery1" className="nav-link">GeneralQuery1 (TQ1)</Link></td>
                                         <td>This page displays the total fantasy points of the 
                                             top fantasy players in the NFL by a selected year,
                                             player type, scoring type. This can provide valuable
@@ -36,7 +36,23 @@ class GeneralQueryList extends React.Component {
                                             player position and scoring type.</td>
                                     </tr>
                                     <tr>
-                                        <td><Link to="/trendquery2" className="nav-link">TrendQuery2 (Static)</Link></td>
+                                        <td><Link to="/trendquery4" className="nav-link">GeneralQuery2 (TQ4)</Link></td>
+                                        <td>This page displays counts of the major offensive scoring
+                                        categories from the 4 major sports leagues of 2 selected
+                                        cities for comparison. This can be seen as a sort of 
+                                        excitement rating, and how entertaining sports can be 
+                                        in different cities.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><Link to="/trendquery5" className="nav-link">GeneralQuery3 (TQ5)</Link></td>
+                                        <td>This page displays the average counts of a 
+                                        selected event throughtout the time of a game.
+                                        With the NHL,NFL, and NBA, this would mean by 
+                                        every minute. For the MLB, this would mean every 
+                                        out, denoted by the inning and its subsections.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><Link to="/trendquery2" className="nav-link">StaticQuery1</Link></td>
                                         <td>This page displays the 5-number summary of the fantasy points
                                         of a selected number of top players of sports leagues by year.
                                         The graphic allows for the comparison of how value falls off 
@@ -45,27 +61,11 @@ class GeneralQueryList extends React.Component {
                                         fantasy league that is being played.</td>
                                     </tr>
                                     <tr>
-                                        <td><Link to="/trendquery3" className="nav-link">TrendQuery3 (Static)</Link></td>
+                                        <td><Link to="/trendquery3" className="nav-link">StaticQuery2</Link></td>
                                         <td>This page displays a yearly range of average fantasy points 
                                         per game for the top 5 players (batters or pitchers) from 
                                         a specific team in a specific year and having played a selected
                                         minimum amount of games in that year.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><Link to="/trendquery4" className="nav-link">TrendQuery4</Link></td>
-                                        <td>This page displays counts of the major offensive scoring
-                                        categories from the 4 major sports leagues of 2 selected
-                                        cities for comparison. This can be seen as a sort of 
-                                        excitement rating, and how entertaining sports can be 
-                                        in different cities.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><Link to="/trendquery5" className="nav-link">TrendQuery5</Link></td>
-                                        <td>This page displays the average counts of a 
-                                        selected event throughtout the time of a game.
-                                        With the NHL,NFL, and NBA, this would mean by 
-                                        every minute. For the MLB, this would mean every 
-                                        out, denoted by the inning and its subsections.</td>
                                     </tr>
                                 </tbody>
                             </table>

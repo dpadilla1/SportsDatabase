@@ -399,7 +399,7 @@ class TrendQuery4 extends React.Component {
             <div>
             <Navbar /><br />
             <div className="container">
-            <h5 className="text-center">Trend Query 4</h5>
+            <h5 className="text-center">General Query 2</h5>
             <p className="text-center">This page displays counts of the major offensive scoring
                                         categories from the 4 major sports leagues of 2 selected
                                         cities for comparison. This can be seen as a sort of 
@@ -504,7 +504,7 @@ class TrendQuery4 extends React.Component {
 		        </div><br /><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
-                <div className="timesheet-table">
+                {/*<div className="timesheet-table">
                     <h5 className="text-center">Displaying results for TrendQuery4:</h5>
                     
                     <table className="table table-bordered">
@@ -523,7 +523,7 @@ class TrendQuery4 extends React.Component {
                             {results}
                         </tbody>
                     </table>
-                </div>
+                </div>*/}
             </div>
             </div>
         )

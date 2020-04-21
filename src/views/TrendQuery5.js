@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import _ from 'lodash';
+//import _ from 'lodash';
 import '../stylesheets/TestQuery1.css';
 import Navbar from "../components/navbar.component";
 import CanvasJSReact from '../CanvasJS/canvasjs.react';
@@ -283,7 +283,7 @@ class TrendQuery5 extends React.Component {
             <div>
             <Navbar /><br />
             <div className="container">
-            <h5 className="text-center">Trend Query 5</h5>
+            <h5 className="text-center">General Query 3</h5>
             <p className="text-center">This page displays the average counts of a 
                                         selected event throughtout the time of a game.
                                         With the NHL,NFL, and NBA, this would mean by 
@@ -351,7 +351,7 @@ class TrendQuery5 extends React.Component {
 		        </div><br /><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
                 {/*<h4 className="text-center">Teams</h4>*/}
-                <div className="timesheet-table">
+                {/*<div className="timesheet-table">
                     <h5 className="text-center">Displaying results for TrendQuery5:</h5>
                     
                     <table className="table table-bordered">
@@ -369,7 +369,7 @@ class TrendQuery5 extends React.Component {
                             {results}
                         </tbody>
                     </table>
-                </div>
+                </div>*/}
             </div>
             </div>
         )

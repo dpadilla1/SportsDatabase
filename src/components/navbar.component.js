@@ -11,19 +11,19 @@ export default class Navbar extends Component {
         <div className="collpase navbar-collapse">
           <ul className="navbar-nav mx-auto text-right">
             <li className="navbar-item">
-              <Link to="/trendquery1" className="nav-link">TrendQuery1</Link>
+              <Link to="/trendquery1" className="nav-link">GeneralQuery1</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery2" className="nav-link">TrendQuery2(S)</Link>
+              <Link to="/trendquery4" className="nav-link">GeneralQuery2</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery3" className="nav-link">TrendQuery3(S)</Link>
+              <Link to="/trendquery5" className="nav-link">GeneralQuery3</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery4" className="nav-link">TrendQuery4</Link>
+              <Link to="/trendquery2" className="nav-link">StaticQuery1</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/trendquery5" className="nav-link">TrendQuery5</Link>
+              <Link to="/trendquery3" className="nav-link">StaticQuery2</Link>
             </li>
           </ul>
         </div>
