@@ -307,36 +307,6 @@ class TrendQuery4 extends React.Component {
                 shared: true
             },
             data: [{
-                type: "line",
-                name: "City 1 HRs",
-                color: "#183163",
-                showInLegend: true,
-                dataPoints: this.state.temp1
-            },
-            {
-                type: "line",
-                name: "City 2 HRs",
-                color: "#9EB3C6",
-                showInLegend: true,
-                dataPoints: this.state.temp5
-            },
-            {
-                type: "line",
-                name: "City 1 TDs",
-                color: "#067E07",
-                axisYType: "secondary",
-                showInLegend: true,
-                dataPoints: this.state.temp2
-            },
-            {
-                type: "line",
-                name: "City 2 TDs",
-                color: "#90BE91",
-                axisYType: "secondary",
-                showInLegend: true,
-                dataPoints: this.state.temp6
-            },
-            {
                 type: "column",
                 name: "City 1 Baskets",
                 color: "#9B0000",
@@ -369,6 +339,36 @@ class TrendQuery4 extends React.Component {
                 axisYIndex: 2,
                 showInLegend: true,
                 dataPoints: this.state.temp8
+            },
+            {
+                type: "line",
+                name: "City 1 HRs",
+                color: "#183163",
+                showInLegend: true,
+                dataPoints: this.state.temp1
+            },
+            {
+                type: "line",
+                name: "City 2 HRs",
+                color: "#9EB3C6",
+                showInLegend: true,
+                dataPoints: this.state.temp5
+            },
+            {
+                type: "line",
+                name: "City 1 TDs",
+                color: "#067E07",
+                axisYType: "secondary",
+                showInLegend: true,
+                dataPoints: this.state.temp2
+            },
+            {
+                type: "line",
+                name: "City 2 TDs",
+                color: "#90BE91",
+                axisYType: "secondary",
+                showInLegend: true,
+                dataPoints: this.state.temp6
             },]
         }
 
